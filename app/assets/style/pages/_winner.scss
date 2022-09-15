@@ -1,0 +1,23 @@
+// winner
+.winner-banner{
+    background:url("../images/winner.jpg") no-repeat 50% 30% / cover;
+    height: 80vh;
+}
+.winner-title-text::before{
+    content:"|";
+    margin-right: 16px;
+}
+.winner-title-net{
+    background-image: url("../images/net.png");
+    background-position: right 85%;
+    background-repeat: no-repeat;
+    background-size: 75%;
+}
+.winner-title-color{
+    background: linear-gradient(290deg, transparent 71%, #1A30B1 0);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.table-winner-color{
+    color: #aa8532;
+}

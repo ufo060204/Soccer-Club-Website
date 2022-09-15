@@ -1,0 +1,28 @@
+// header
+.logo img{
+    height: 150px;
+}
+.logo img:hover{
+    transition: .5s;
+    transform: scale(1.2);
+}
+.nav-link:hover{
+    background: $primary;
+}
+.header-search-bar{
+    width: 148px;
+}
+.header-search-btn{
+    color: $white;
+}
+.header-search-btn:hover{
+    color: $black;
+    background: $white;
+}
+// footer
+.footer{
+    background-color: #131824;
+}
+.footer-logo{
+    height: 100px;
+}

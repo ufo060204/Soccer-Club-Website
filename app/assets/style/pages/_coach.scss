@@ -1,0 +1,21 @@
+// coach-banner
+.coach-banner{
+    background: url("../images/coach-banner.jpg") no-repeat center / cover;
+    height: 70vh;
+}
+
+.coach-title-text::before{
+    content:"|";
+    margin-right: 16px;
+}
+.coach-title-net{
+    background-image: url("../images/net.png");
+    background-position: right 85%;
+    background-repeat: no-repeat;
+    background-size: 75%;
+}
+.coach-title-color{
+    background: linear-gradient(290deg, transparent 71%, #1A30B1 0);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
