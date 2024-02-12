@@ -2,34 +2,95 @@
   color: $warning;
 }
 // banner
-.index-banner{
-  background: url("../images/banner.jpg") no-repeat center / cover;
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // background-position: center;
-  height: 640px;
+// .index-banner{
+//   background: url("../images/banner.jpg") no-repeat center / cover;
+//   // background-repeat: no-repeat;
+//   // background-size: cover;
+//   // background-position: center;
+//   height: 640px;
+// }
+.Rectangle-bg {
+  background-image: url(../images/Rectangle-l-pc.png),url(../images/Rectangle-r.png);
+  background-position: left, right 85%;
+  background-size: auto, 75%;
+  background-repeat: no-repeat no-repeat;
+  @include pad {
+    height: 62px;
+    background-image: url(../images/Rectangle-l-mb.png), url(../images/Rectangle-r.png);
+    background-size: auto, 100%;
+  }
 }
-
 
 // news
 .news-title-text::before{
   content:"|";
   margin-right: 16px;
 }
-.news-title-net{
-  background-image: url("../images/net.png");
-  background-position: right 85%;
-  background-repeat: no-repeat;
-  background-size: 75%;
+// .news-title-net{
+//   background-image: url("../images/net.png");
+//   background-position: right 85%;
+//   background-repeat: no-repeat;
+//   background-size: 75%;
+// }
+// .news-title-color{
+//   background: linear-gradient(290deg, transparent 71%, #1A30B1 0);
+//   background-size: 100% 100%;
+//   background-repeat: no-repeat;
+// }
+// .news-card-img-1 {
+//   height: 408px;
+//   background: url("../images/summer-camp.jpg") no-repeat center / cover;
+// }
+// .news-card:hover {
+//   transition: transform 0.3s ease-in-out;
+//   transform: scale(1.1);
+// }
+// .news-card-header:hover {
+//   padding-top: 30%;
+//   transition: transform .3s ease-out;
+// }
+// .news-card-img:hover {
+//   transform: translateY(-10%);
+//   transition: transform .3s ease-out;
+// }
+// .card {
+//   transition: 0.5s
+// }
+.card .news-card-title {
+  transition: 0.5s;
+  border-top: 2px solid #1A30B1;
 }
-.news-title-color{
-  background: linear-gradient(290deg, transparent 71%, #1A30B1 0);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+.card:hover .news-card-title {
+  border-top: 2px solid #fff;
 }
-.news-card-img-1 {
-  height: 408px;
-  background: url("../images/summer-camp.jpg") no-repeat center / cover;
+.card .news-card-body {
+  transition: 0.5s
+}
+.card:hover .news-card-body {
+  transform: translateY(-10px);
+}
+.card .news-card-footer {
+  transform: translateY(40px);
+  transition: 0.5s;
+  opacity: 0;
+}
+.card:hover .news-card-footer {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.card .news-card-triangle:after {
+  transition: 0.5s;
+}
+.card:hover .news-card-triangle:after {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: transparent 10px solid;
+  border-top-color: #fff;
 }
 .news-card-img-triangle::after{
   content: "\f0d7";
@@ -48,18 +109,18 @@
   top: 50%;
   left: 0;
 }
-.news-card-img-2 {
-  height: 408px;
-  background: url("../images/Seminar.jpg") no-repeat center / cover;
-}
-.news-card-img-3 {
-  height: 408px;
-  background: url("../images/lottery.jpg") no-repeat center / cover;
-}
-.news-card-img-4 {
-  height: 408px;
-  background: url("../images/charity.jpg") no-repeat center / cover;
-}
+// .news-card-img-2 {
+//   height: 408px;
+//   background: url("../images/Seminar.jpg") no-repeat center / cover;
+// }
+// .news-card-img-3 {
+//   height: 408px;
+//   background: url("../images/lottery.jpg") no-repeat center / cover;
+// }
+// .news-card-img-4 {
+//   height: 408px;
+//   background: url("../images/charity.jpg") no-repeat center / cover;
+// }
 
 // slogan
 .slogan img{

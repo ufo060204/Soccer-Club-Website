@@ -1,12 +1,12 @@
 ---
-title: 首頁
+title: 火星兔足球俱樂部
 layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
 
-<div class="index-banner">
-  <div class="container-lg text-light">
+<div style="background-image: url(./assets/images/banner.jpg); background-position: center; background-size: cover; height: 100vh; background-repeat: no-repeat;" class="index-banner">
+  <div class="container-lg">
     <div class="pt-5">
       <p>火星兔足球俱樂部</p>
       <h2>向火星開球</h2>
@@ -16,81 +16,89 @@ current: index
 </div>
 
 <section class="news">
-  <div class="news-title-net">
-    <div class="news-title-color">
-      <div class="container">
-        <h4 class="my-0 text-light py-4 fw-bold ps-3 news-title-text">最新消息</h4>
-      </div>
-    </div> 
-  </div>
-  <div class="news-card bg-dark py-6">
+  <div class="d-flex align-items-center Rectangle-bg">
     <div class="container">
-      <div class="row"> 
-        <div class="col-3">
-          <div data-aos="fade-up" class="card bg-dark border-0">
-            <div class="news-card-img-1 news-card-img-triangle border-bottom border-2 position-relative">
-              <i class="fa-sharp fa-solid fa-chevrons-down position-absolute top-100 start-50 translate-middle"></i>
-            </div>
-            <div class="card-body bg-primary py-3 px-2">
-              <h4 class="card-title text-center text-light mb-4 fw-bold">
+      <h4 class="my-0 text-light py-4 fw-bold ps-3 news-title-text">最新消息</h4>
+    </div>
+  </div> 
+  <div class="bg-color-bg py-7">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4"> 
+        <div class="col mb-3 mb-md-3 mb-lg-0">
+          <a href="#" data-aos="fade-up" class="card p-0 bg-primary border-0 overflow-hidden">
+            <div class="card-body p-0 news-card-body">
+              <div class="news-card-img">
+                <img class="card-img top-0 left-0" src="./assets/images/news1.jpg" alt="news1">
+              </div>
+              <h4 class="card-title news-card-title news-card-triangle position-relative mb-0 text-center px-2 pt-3 lh-base text-light fw-bold">
                 火星兔足球俱樂部
-                <br>2022 夏季足球營
-              </h4>
-              <a href="#" class="btn btn-primary stretched-link fs-6 d-block text-hover">
-                Read More
                 <br>
-                <i class="fa-solid fa-chevron-down news-card-i position-relative"></i>
-              </a>
+                2023 夏季足球營
+              </h4>
             </div>
-          </div>
+            <div class="btn btn-primary news-card-footer px-2 pb-3 fs-6 d-block" type="button">
+              Read More
+              <br>
+              <i class="fa-solid fa-chevron-down news-card-i position-relative"></i>
+            </div>
+          </a>
         </div>
-        <div class="col-3">
-          <div data-aos="fade-up" class="card bg-dark border-0">
-            <div class="news-card-img-2 news-card-img-triangle border-bottom border-2 position-relative"></div>
-            <div class="card-body bg-primary py-3 px-2">
-              <h4 class="card-title text-center text-light mb-4 fw-bold">
+        <div class="col mb-3 mb-md-3 mb-lg-0">
+          <a href="#" data-aos="fade-up" class="card p-0 bg-primary border-0 overflow-hidden">
+            <div class="card-body p-0 news-card-body">
+              <div class="news-card-img">
+                <img class="card-img top-0 left-0" src="./assets/images/news2.jpg" alt="news2">
+              </div>
+              <h4 class="card-title news-card-title news-card-triangle position-relative mb-0 text-center px-2 pt-3 lh-base text-light fw-bold">
                 動得健康又安心運動傷害
-                <br>講座分享
-              </h4>
-              <a href="#" class="btn btn-primary stretched-link fs-6 d-block text-hover">
-                Read More
                 <br>
-                <i class="fa-solid fa-chevron-down news-card-i position-relative"></i>
-              </a>
+                講座分享
+              </h4>
             </div>
-          </div>
+            <div class="btn btn-primary news-card-footer px-2 pb-3 fs-6 d-block" type="button">
+              Read More
+              <br>
+              <i class="fa-solid fa-chevron-down news-card-i position-relative"></i>
+            </div>
+          </a>
         </div>
-        <div class="col-3">
-          <div data-aos="fade-up" class="card bg-dark border-0">
-            <div class="news-card-img-3 news-card-img-triangle border-bottom border-2 position-relative"></div>
-            <div class="card-body  bg-primary py-3 px-2">
-              <h4 class="card-title text-center text-light mb-4 fw-bold">
+        <div class="col mb-3 mb-md-3 mb-lg-0">
+          <a href="#" data-aos="fade-up" class="card p-0 bg-primary border-0 overflow-hidden">
+            <div class="card-body p-0 news-card-body">
+              <div class="news-card-img">
+                <img class="card-img top-0 left-0" src="./assets/images/news3.jpg" alt="news3">
+              </div>
+              <h4 class="card-title news-card-title news-card-triangle position-relative mb-0 text-center px-2 pt-3 lh-base text-light fw-bold">
                 火星兔紀念足球
-                <br>中秋網路抽獎活動
-              </h4>
-              <a href="#" class="btn btn-primary stretched-link fs-6 d-block text-hover">
-                Read More
                 <br>
-                <i class="fa-solid fa-chevron-down news-card-i position-relative"></i>
-              </a>
+                七夕網路抽獎活動
+              </h4>
             </div>
-          </div>
+            <div class="btn btn-primary news-card-footer px-2 pb-3 fs-6 d-block" type="button">
+              Read More
+              <br>
+              <i class="fa-solid fa-chevron-down news-card-i position-relative"></i>
+            </div>
+          </a>
         </div>
-        <div class="col-3">
-          <div data-aos="fade-up" class="card bg-dark border-0">
-            <div class="news-card-img-4 news-card-img-triangle border-bottom border-2 position-relative"></div>
-            <div class="card-body bg-primary py-3 px-2">
-              <h4 class="card-title text-center text-light mb-4 fw-bold">
+        <div class="col mb-3 mb-md-3 mb-lg-0">
+          <a href="#" data-aos="fade-up" class="card p-0 bg-primary border-0 overflow-hidden">
+            <div class="card-body p-0 news-card-body">
+              <div class="news-card-img">
+                <img class="card-img top-0 left-0" src="./assets/images/news4.jpg" alt="news4">
+              </div>
+              <h4 class="card-title news-card-title news-card-triangle position-relative mb-0 text-center px-2 pt-3 lh-base text-light fw-bold">
                 公益足球體驗營
-                <br>申請辦法
-              </h4>
-              <a href="#" class="btn btn-primary stretched-link fs-6 d-block text-hover">
-                Read More
                 <br>
-                <i class="fa-solid fa-chevron-down news-card-i position-relative"></i>
-              </a>
+                申請辦法
+              </h4>
             </div>
-          </div>
+            <div class="btn btn-primary news-card-footer px-2 pb-3 fs-6 d-block" type="button">
+              Read More
+              <br>
+              <i class="fa-solid fa-chevron-down news-card-i position-relative"></i>
+            </div>
+          </a>
         </div>
 
       </div>
@@ -98,16 +106,16 @@ current: index
   </div>
 </section>
 
-<section class="slogan bg-dark pb-6">
+<section class="slogan bg-color-bg py-7">
   <div class="container-lg">
     <div class="card mb-3">
       <div class="row g-0">
-        <div class="col-6">
-          <img class="img-fluid" src="./assets/images/circle.jpg" alt="circle">
+        <div class="col-md-6">
+          <img class="img-fluid h-100" src="./assets/images/circle.jpg" alt="circle">
         </div>
-        <div class="col-6 bg-dark d-flex align-items-center">
+        <div class="col-md-6 d-flex align-items-center">
           <div class="card-body d-flex justify-content-center align-items-center">
-            <h2 data-aos="flip-left" class="card-title fw-bold text-center lh-lg">從０邁向１<br>再從１邁向無限的可能<br>一起來踢足球吧！</h2>
+            <h2 data-aos="flip-left" class="card-title fw-bold text-center lh-lg text-secondary">從０邁向１<br>再從１邁向無限的可能<br>一起來踢足球吧！</h2>
           </div>
         </div>  
       </div>
@@ -115,19 +123,17 @@ current: index
   </div>
 </section>
 
-<section class="event">
-  <div class="event-title-net">
-    <div class="event-title-color">
-      <div class="container-lg">
-        <h4 class="my-0 text-light py-4 fw-bold event-title-text">活動紀錄</h4>
-      </div>
+<section class="event bg-color-bg">
+  <div class="d-flex align-items-center Rectangle-bg">
+    <div class="container">
+      <h4 class="my-0 text-light py-4 fw-bold ps-3 news-title-text">活動紀錄</h4>
     </div>
   </div>
-  <div class="event-card bg-dark py-6">
+  <div class="event-card py-7">
     <div class="container-lg">
-      <div data-aos="fade-left" class="card mb-4 border-0">
+      <div class="card mb-4 border-0">
         <div class="row g-0">
-          <div class="col-3">
+          <div class="col-3 bg-primary">
             <img class="img-fluid" src="./assets/images/camp.jpg" alt="...">
           </div>
           <div class="col-9 bg-primary">
@@ -141,9 +147,9 @@ current: index
           </div>
         </div>
       </div>
-      <div data-aos="fade-left" class="card mb-4 border-0">
+      <div class="card mb-4 border-0">
         <div class="row g-0">
-          <div class="col-3">
+          <div class="col-3 bg-primary">
             <img class="img-fluid" src="./assets/images/game.jpg" alt="game">
           </div>
           <div class="col-9 bg-primary">
@@ -157,9 +163,9 @@ current: index
           </div>
         </div>
       </div>
-      <div data-aos="fade-left" class="card mb-4 border-0">
+      <div class="card mb-4 border-0">
         <div class="row g-0">
-          <div class="col-3">
+          <div class="col-3 bg-primary">
             <img class="img-fluid" src="./assets/images/campGear.jpg" alt="campGear">
           </div>
           <div class="col-9 bg-primary">
@@ -177,24 +183,21 @@ current: index
   </div>
 </section>
 
-<section class="video bg-dark pb-6">
+<section class="video py-7 bg-color-bg">
   <div class="container-lg">
     <div class="card mb-3">
       <div class="row g-0">
-        <div class="col-6">
+        <div class="col-md-6">
           <div class="bg-dark">
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/6wAkL7c-j98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
-        <div class="col-6 bg-dark d-flex align-items-center">
+        <div class="col-md-6 d-flex align-items-center">
           <div class="card-body d-flex justify-content-center align-items-center">
-            <p class="card-text fs-4 lh-lg">足球是全世界最流行的運動，讓您的孩子參與足球，除了強健身體，還能透過比賽培養團隊合作精神、彼此的交流能力，榮譽心與專注力。</p>
+            <p class="card-text fs-4 lh-lg text-secondary">足球是全世界最流行的運動，讓您的孩子參與足球，除了強健身體，還能透過比賽培養團隊合作精神、彼此的交流能力，榮譽心與專注力。</p>
           </div>
         </div>  
       </div>
     </div>
   </div>
-</section> 
-
-
-
+</section>

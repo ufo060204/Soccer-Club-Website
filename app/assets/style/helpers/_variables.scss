@@ -71,10 +71,10 @@ $primary:       #1A30B1; // $blue !default;
 $secondary:     #343434;// $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
-$warning:       #aa8532; // $yellow !default;
+$warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-300; // $gray-100 !default;
-$dark:          #121514; // $gray-900 !default;
+$dark:          $gray-900 !default;
 $black:         $black;
 // scss-docs-end theme-color-variables
 
@@ -89,6 +89,8 @@ $theme-colors: (
   "light":      $light,
   "dark":       $dark,
   "black":      $black,
+  "color-bg":   #121514,
+  "gold":       #aa8532,
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -333,7 +335,7 @@ $grid-breakpoints: (
 $container-max-widths: (
   sm: 327px, // 540px,
   md: 720px,
-  lg: 960px,
+  lg: 1296px, // 960px,
   xl: 1296px, // 1140px,
   xxl: 1320px
 ) !default;
